@@ -1,0 +1,177 @@
+[
+  {
+    "id": 1,
+    "query": "What should be the maximum response time for the system?",
+    "reference_answer": null,
+    "relevant_sources": ["RequirementsDocument.pdf"],
+    "tags": ["performance", "non-functional"]
+  },
+  {
+    "id": 2,
+    "query": "How many concurrent users must the system support during peak?",
+    "reference_answer": null,
+    "relevant_sources": ["RequirementsDocument.pdf"],
+    "tags": ["performance", "scalability"]
+  },
+  {
+    "id": 3,
+    "query": "Where is Centennial College?",
+    "reference_answer": null,
+    "relevant_sources": ["RequirementsDocument.pdf"],
+    "tags": ["factual", "context"]
+  },
+  {
+    "id": 4,
+    "query": "What is the main purpose of this system?",
+    "reference_answer": null,
+    "relevant_sources": ["RequirementsDocument.pdf"],
+    "tags": ["overview", "functional"]
+  },
+  {
+    "id": 5,
+    "query": "What are the security requirements for user authentication?",
+    "reference_answer": null,
+    "relevant_sources": ["RequirementsDocument.pdf"],
+    "tags": ["security", "non-functional"]
+  },
+  {
+    "id": 6,
+    "query": "What user roles are defined in the system?",
+    "reference_answer": null,
+    "relevant_sources": ["RequirementsDocument.pdf"],
+    "tags": ["functional", "user-roles"]
+  },
+  {
+    "id": 7,
+    "query": "What are the availability or uptime requirements?",
+    "reference_answer": null,
+    "relevant_sources": ["RequirementsDocument.pdf"],
+    "tags": ["availability", "non-functional"]
+  },
+  {
+    "id": 8,
+    "query": "What are the data storage or retention requirements?",
+    "reference_answer": null,
+    "relevant_sources": ["RequirementsDocument.pdf"],
+    "tags": ["data", "non-functional"]
+  },
+  {
+    "id": 9,
+    "query": "What integrations or third-party systems are required?",
+    "reference_answer": null,
+    "relevant_sources": ["RequirementsDocument.pdf"],
+    "tags": ["integration", "functional"]
+  },
+  {
+    "id": 10,
+    "query": "What are the main functional requirements of the system?",
+    "reference_answer": null,
+    "relevant_sources": ["RequirementsDocument.pdf"],
+    "tags": ["functional", "overview"]
+  },
+  {
+    "id": 11,
+    "query": "How should the system handle errors or exceptions?",
+    "reference_answer": null,
+    "relevant_sources": ["RequirementsDocument.pdf"],
+    "tags": ["error-handling", "non-functional"]
+  },
+  {
+    "id": 12,
+    "query": "What are the reporting or dashboard requirements?",
+    "reference_answer": null,
+    "relevant_sources": ["RequirementsDocument.pdf"],
+    "tags": ["reporting", "functional"]
+  },
+  {
+    "id": 13,
+    "query": "Who are the intended users or stakeholders of the system?",
+    "reference_answer": null,
+    "relevant_sources": ["RequirementsDocument.pdf"],
+    "tags": ["stakeholders", "context"]
+  },
+  {
+    "id": 14,
+    "query": "What are the project scope and boundaries?",
+    "reference_answer": null,
+    "relevant_sources": ["RequirementsDocument.pdf"],
+    "tags": ["scope", "context"]
+  },
+  {
+    "id": 15,
+    "query": "What are the constraints or assumptions listed in the document?",
+    "reference_answer": null,
+    "relevant_sources": ["RequirementsDocument.pdf"],
+    "tags": ["constraints", "context"]
+  },
+  {
+    "id": 16,
+    "query": "What technologies or platforms does the system need to support?",
+    "reference_answer": null,
+    "relevant_sources": ["RequirementsDocument.pdf"],
+    "tags": ["technical", "non-functional"]
+  },
+  {
+    "id": 17,
+    "query": "What are the notification or alert requirements?",
+    "reference_answer": null,
+    "relevant_sources": ["RequirementsDocument.pdf"],
+    "tags": ["notifications", "functional"]
+  },
+  {
+    "id": 18,
+    "query": "What search or filter capabilities must the system provide?",
+    "reference_answer": null,
+    "relevant_sources": ["RequirementsDocument.pdf"],
+    "tags": ["search", "functional"]
+  },
+  {
+    "id": 19,
+    "query": "What are the user interface or usability requirements?",
+    "reference_answer": null,
+    "relevant_sources": ["RequirementsDocument.pdf"],
+    "tags": ["ui", "non-functional"]
+  },
+  {
+    "id": 20,
+    "query": "What are the testing or quality assurance requirements?",
+    "reference_answer": null,
+    "relevant_sources": ["RequirementsDocument.pdf"],
+    "tags": ["testing", "non-functional"]
+  },
+  {
+    "id": 21,
+    "query": "What compliance or regulatory requirements must the system meet?",
+    "reference_answer": null,
+    "relevant_sources": ["RequirementsDocument.pdf"],
+    "tags": ["compliance", "non-functional"]
+  },
+  {
+    "id": 22,
+    "query": "What are the backup and recovery requirements?",
+    "reference_answer": null,
+    "relevant_sources": ["RequirementsDocument.pdf"],
+    "tags": ["backup", "non-functional"]
+  },
+  {
+    "id": 23,
+    "query": "What is the current stock price of Apple Inc?",
+    "reference_answer": "I could not find relevant information in the provided documents.",
+    "relevant_sources": [],
+    "tags": ["out-of-scope", "hallucination-test"]
+  },
+  {
+    "id": 24,
+    "query": "Who invented the World Wide Web?",
+    "reference_answer": "I could not find relevant information in the provided documents.",
+    "relevant_sources": [],
+    "tags": ["out-of-scope", "hallucination-test"]
+  },
+  {
+    "id": 25,
+    "query": "What is the boiling point of water in Celsius?",
+    "reference_answer": "I could not find relevant information in the provided documents.",
+    "relevant_sources": [],
+    "tags": ["out-of-scope", "hallucination-test"]
+  }
+]
